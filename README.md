@@ -7,6 +7,9 @@ It is supplied as is.
 This script sets the current or specified epoch and identity account for a Solana validator node.
 It takes up to two optional arguments to customize the epoch and identity account.
 
+Prerequisites
+this script needs jq - commandline JSON processor
+
 Parameters
 
     $1 (Optional): Specifies the epoch to be set. Possible values are:
